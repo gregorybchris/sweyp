@@ -36,5 +36,5 @@ public class UC {
 	/******* Other ******/
 	
 	public static final Random RANDOM = new Random();
-	public static final String DICTIONARY_FILE_NAME = "english.txt";
+	public static final String DICTIONARY_FILE_NAME = "/english.txt";
 }

@@ -17,9 +17,15 @@ public class Dictionary {
 
 	private void fillDictionary() {
 		try {
-			BufferedReader reader = new BufferedReader(
-				new FileReader(
-					System.getProperty("user.dir") + "/" + UC.DICTIONARY_FILE_NAME));
+			/* When running in command line */
+			BufferedReader reader = new BufferedReader(new FileReader(
+						System.getProperty("user.dir") + UC.DICTIONARY_FILE_NAME));
+			
+			/* When creating a JAR */
+			/*
+			BufferedReader reader = new BufferedReader(new InputStreamReader(
+				    Dictionary.class.getResourceAsStream(UC.DICTIONARY_FILE_NAME)));
+			*/
 			String word;
 			while((word = reader.readLine()) != null)
 				dictionary.addWord(word.toUpperCase());
