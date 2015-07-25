@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Chris Gregory 2015
+
+# This is a run script for the Sweyp game
+# It compiles the project, runs it, and then cleans up the compile files
+
+# Create folder for compiled java bytecode
+mkdir compiled
+
+# Compile the project
+javac -d compiled/ -cp . drivers/Driver.java
+
+# Run the project
+java -cp compiled/ drivers/Driver
+
+# Clean up compiled java bytecode
+rm -r compiled
