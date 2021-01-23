@@ -1,4 +1,4 @@
-package graphics;
+package sweyp.graphics;
 
 import java.awt.Font;
 import java.awt.Graphics2D;

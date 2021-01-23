@@ -1,4 +1,4 @@
-package data;
+package sweyp.data;
 
 import java.util.HashSet;
 

@@ -1,9 +1,9 @@
-package data;
+package sweyp.data;
 
 import java.util.ArrayList;
 
-import constants.GC;
-import constants.UC;
+import sweyp.constants.GC;
+import sweyp.constants.UC;
 
 public class Config {
 	public Board board;

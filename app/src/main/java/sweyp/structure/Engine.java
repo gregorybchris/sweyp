@@ -1,16 +1,16 @@
-package structure;
+package sweyp.structure;
 
 import java.awt.event.KeyEvent;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import constants.GC;
-import constants.UC;
-import data.Config;
-import data.Dictionary;
-import data.IOData;
-import data.Location;
+import sweyp.constants.GC;
+import sweyp.constants.UC;
+import sweyp.data.Config;
+import sweyp.data.Dictionary;
+import sweyp.data.IOData;
+import sweyp.data.Location;
 
 public class Engine {
 	private IOData iodata;

@@ -1,10 +1,9 @@
-package constants;
+package sweyp.constants;
 
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.awt.GradientPaint;
-import java.io.File;
 import java.io.IOException;
 
 public class GC {
@@ -84,19 +83,11 @@ public class GC {
 
 	static {
 		try {
-			/* When running in command line */
-			File boldFile = new File(System.getProperty("user.dir") + FONT_FILE_BOLD);
-			File thinFile = new File(System.getProperty("user.dir") + FONT_FILE_THIN);
-			FONT_BOLD = Font.createFont(Font.TRUETYPE_FONT, boldFile);
-			FONT_THIN = Font.createFont(Font.TRUETYPE_FONT, thinFile);
-			
-			/* When creating a JAR */
-			/*
 			FONT_BOLD = Font.createFont(Font.TRUETYPE_FONT, 
 					GC.class.getResourceAsStream(FONT_FILE_BOLD));
 			FONT_THIN = Font.createFont(Font.TRUETYPE_FONT, 
 					GC.class.getResourceAsStream(FONT_FILE_THIN));
-			*/
+			
 		} catch (FontFormatException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

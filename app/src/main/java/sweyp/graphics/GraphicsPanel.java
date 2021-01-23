@@ -1,4 +1,4 @@
-package graphics;
+package sweyp.graphics;
 
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
@@ -17,11 +17,11 @@ import java.awt.geom.RoundRectangle2D;
 
 import javax.swing.JPanel;
 
-import constants.GC;
-import constants.UC;
-import data.Config;
-import data.IOData;
-import data.Point;
+import sweyp.constants.GC;
+import sweyp.constants.UC;
+import sweyp.data.Config;
+import sweyp.data.IOData;
+import sweyp.data.Point;
 
 public class GraphicsPanel extends JPanel 
 implements KeyListener, MouseListener, MouseMotionListener {

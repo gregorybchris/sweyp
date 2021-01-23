@@ -7,14 +7,17 @@ You have 60 seconds to find as many words as you can. Words must have at least t
 
 ## Running the Project
 
-To run the project in the console use the provided run file:
+To run the project use the Gradle run command:
 
 ```bash
-./run
+# Mac/Linux
+./gradlew run
+
+# Windows
+gradlew.bat run
 ```
 
-This will compile the java files, run the graphics for the program, and then clean up the compile files after program termination.
 
 ## Result
 
-![Master](/SweypImage.jpg?raw=true "Sweyp")
+![Master](/sweyp-image.jpg?raw=true "Sweyp")

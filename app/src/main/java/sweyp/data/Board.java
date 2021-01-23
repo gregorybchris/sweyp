@@ -1,6 +1,6 @@
-package data;
+package sweyp.data;
 
-import constants.UC;
+import sweyp.constants.UC;
 
 public class Board {
 	private int width;

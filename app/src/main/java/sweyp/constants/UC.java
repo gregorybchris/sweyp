@@ -1,8 +1,8 @@
-package constants;
+package sweyp.constants;
 
 import java.util.Random;
 
-import data.Location;
+import sweyp.data.Location;
 
 public class UC {
 	

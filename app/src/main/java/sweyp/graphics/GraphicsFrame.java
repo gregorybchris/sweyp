@@ -1,9 +1,9 @@
-package graphics;
+package sweyp.graphics;
 
 import javax.swing.JFrame;
 
-import data.Config;
-import data.IOData;
+import sweyp.data.Config;
+import sweyp.data.IOData;
 
 public class GraphicsFrame extends JFrame {
 	private static final long serialVersionUID = 1175325062L;

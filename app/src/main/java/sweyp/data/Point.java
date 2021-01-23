@@ -1,4 +1,4 @@
-package data;
+package sweyp.data;
 
 public class Point {
 	public double x;

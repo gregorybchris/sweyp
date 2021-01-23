@@ -1,4 +1,4 @@
-package data;
+package sweyp.data;
 
 public class Vector {
 	private double x;
